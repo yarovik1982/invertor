@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family:var(--main-font);
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul,li{
+  list-style-type: none;
+}
+a {
+  font-weight: 500;
+  color: gold;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  color:gold;
+  text-shadow: 2px 2px #7e00a0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {border: none;}
+
+#app {
+  width: 480px;
+  text-align: center;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; */
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.container{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+/* .container-fluid{max-width: 1763px;} */
+main{
+  background-color: var(--bg-grey);
+  flex:1 auto;
+  width: 100%;
+}
+/* Может лучше что-нибудь типа .container{max-width: 1440px;...} .container-fluid{max-width: 1763px;...} . */
+p{
+  margin: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+

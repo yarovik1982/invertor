@@ -1,0 +1,187 @@
+/* Стили для больших экранов, размеры переводить в относительные для нормального отображения */
+@media (min-width: 1440px) {
+	h1 {
+		font-size: 3.125rem;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+
+	h4 {
+		font-size: 1.125rem;
+	}
+
+	h5 {
+		font-size: 1rem;
+	}
+
+	h6 {
+		font-size: 0.875rem;
+	}
+
+	/* Text Numbers */
+	.number-big {
+		font-size: 4.735rem;
+	}
+
+	.number-medium {
+		font-size: 2.5rem;
+	}
+
+	/* Text */
+	.text-big {
+		font-size: 1rem;
+	}
+
+	.text-medium {
+		font-size: 0.875rem;
+	}
+
+	.text-small {
+		font-size: 0.75rem;
+	}
+
+	.link-big {
+		font-size: 1rem;
+	}
+
+	.link-small {
+		font-size: 0.875rem;
+	}
+
+	.text-btn {
+		font-size: 0.875rem;
+	}
+
+  .br-10 {
+    border-radius: 0.625rem;
+  }
+
+  .g-10{
+    gap:  0.625rem;
+  }
+
+  .g-16{
+    gap: 1rem;
+  }
+
+  .g-30{
+    gap: 1.875rem;
+  }
+
+  /* Margin & Padding */
+
+  .mt-10 {
+    margin-top: 0.625rem;
+  }
+
+  .mb-10 {
+    margin-bottom: 0.625rem;
+  }
+
+  .mt-20 {
+    margin-top: 1.25rem;
+  }
+
+  .mb-20 {
+    margin-bottom: 1.25rem;
+  }
+
+  .mb-40 {
+    margin-bottom: 2.5rem;
+  }
+
+  .pt-10 {
+    padding-top: 0.625rem;
+  }
+
+  .pb-10 {
+    padding-bottom: 0.625rem;
+  }
+
+  .pb-16{
+    padding-bottom: 1rem;
+  }
+
+  .pt-20 {
+    padding-top: 1.25rem;
+  }
+
+  .pb-20 {
+    padding-bottom: 1.25rem;
+  }
+
+  /* Border Radius */
+
+  .br-20{
+    border-radius: 1.25rem;
+  }
+  .br-10 {
+    border-radius: 0.625rem;
+  }
+  .br-8{
+    border-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	/* Text Numbers */
+	.number-big {
+		font-size: 40px;
+	}
+
+	.number-medium {
+		font-size: 30px;
+	}
+	.container{
+		max-width: 684px;
+	}
+}
+
+@media (max-width: 320px) {
+	h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	h4 {
+		font-size: 16px;
+	}
+
+	h5 {
+		font-size: 14px;
+	}
+
+	h6 {
+		font-size: 12px;
+	}
+
+	/* Text Numbers */
+	.number-big {
+		font-size: 40px;
+	}
+
+	.number-medium {
+		font-size: 30px;
+	}
+}

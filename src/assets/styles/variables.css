@@ -1,0 +1,28 @@
+:root{
+/* Colors */
+  /* Background */
+  --bg-white: #fff;
+  --bg-grey: #EBEDF0;
+  --bg-btn-grey:#DDE1E6;
+  --bg-yellow: #FFED32;
+  --bg-yellow-light: #FFF681;
+
+  /* text */
+  --text-blue:#203686;
+  --text-blue-light:#3d62e7;
+  --text-grey: #70798E;
+  --text-green:#6FBD15;
+  --text-red:#F10B34;
+  --text-white:#fff;
+
+  /* border */
+  --border-blue:#20368633;
+
+/* Typography */
+  /* font-family */
+  --main-font: "Montserrat", sans-serif;
+
+/* Animation */
+--duration: 0.3s;
+}
+

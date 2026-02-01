@@ -1,0 +1,115 @@
+/* Typography */
+/* Headings */
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 600;
+	line-height: 100%;
+	letter-spacing: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	line-height: 120%;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+/* Text Numbers */
+.number-big {
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 100%;
+	letter-spacing: 0;
+}
+
+.number-medium {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 100%;
+	letter-spacing: 0;
+}
+
+.phone{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.phone-small{
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Text */
+.text-big {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	letter-spacing: 0;
+}
+
+.text-medium {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 130%;
+	letter-spacing: 0;
+}
+
+.text-small {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 120%;
+	letter-spacing: 0;
+}
+
+.link-big {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 120%;
+	letter-spacing: 0;
+}
+
+.link-small {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0;
+}
+
+.text-btn {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 110%;
+	letter-spacing: 0px;
+}
+

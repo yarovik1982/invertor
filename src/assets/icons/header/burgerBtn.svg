@@ -1,0 +1,9 @@
+<svg class="burger" width="20" height="20" viewBox="0 0 20 20" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <path class="top" d="M2.5 3.33301H17.5" stroke="#203686" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="middle" d="M2.5 10H17.5" stroke="#203686" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="bottom" d="M2.5 16.667H17.5" stroke="#203686" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
