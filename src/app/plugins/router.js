@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from 'vue-router';
+import { createWebHistory, createRouter, createWebHashHistory } from 'vue-router';
 import Start from '../../pages/StartPage.vue'
 import Menu from '../../pages/MenuPage.vue'
 import Game from '../../pages/GamePage.vue'
@@ -27,7 +27,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 });
 
